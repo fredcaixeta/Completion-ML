@@ -1,16 +1,7 @@
-# Discord Bot com RAG e ChatGPT
+# Otimização de Trajeto e IA Generativa para Requisições do Modelo
 
-Este projeto é um bot do Discord que integra Retrieval-Augmented Generation (RAG) e ChatGPT para oferecer funcionalidades avançadas de interação com o usuário. O bot permite que os usuários interajam com um sistema de perguntas e respostas baseado em PDFs, e pode receber e processar arquivos PDF através de mensagens diretas.
+Este projeto utiliza um modelo de Machine Learning para prever o tempo estimado de viagem com base em informações sobre o trajeto, como local de partida, destino, distância e condições de tráfego. Além disso, implementa uma interface de IA generativa que facilita a interação do usuário, permitindo que as consultas ao modelo sejam feitas via um bot no Discord.
 
-## Funcionalidades
+## Descrição do Projeto
 
-- **RAG e Chat Completion**: Integração com modelos de linguagem para gerar respostas detalhadas com base no conteúdo dos PDFs enviados pelos usuários.
-- **Processamento de PDFs**: O bot pode receber arquivos PDF, extrair texto e fornecer respostas baseadas no conteúdo dos documentos.
-- **Comandos de Slash**: Comandos personalizados para interagir com o bot e iniciar o processo de análise de PDFs.
-
-## Tecnologias Utilizadas
-
-- **Discord.py**: Biblioteca para criar e interagir com bots do Discord.
-- **OpenAI API**: Para utilizar o ChatGPT e recursos de RAG.
-- **PyPDF2**: Para a leitura e extração de texto de arquivos PDF.
-- **Python 3.x**: Linguagem de programação utilizada para o desenvolvimento do bot.
+Este projeto tem como objetivo otimizar o tempo de entrega para rotas logísticas, prevendo o tempo estimado de viagem com base em um modelo de Machine Learning. 
